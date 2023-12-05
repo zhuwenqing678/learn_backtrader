@@ -1,0 +1,88 @@
+{
+    "root": {
+        "data": {
+            "id": "cxgf3bt560g0",
+            "created": 1701781211383,
+            "text": "backtrader知识汇总"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cxggmwc3y0o0",
+                    "created": 1701785566096,
+                    "text": "pandas处理数据"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cxggn5bxri80",
+                            "created": 1701785585676,
+                            "text": "导入"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cxggn6kc1rs0",
+                            "created": 1701785588360,
+                            "text": "转换"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cxgf3wzhojk0",
+                    "created": 1701781257480,
+                    "text": "数据篇"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cxggk0y0iuw0",
+                            "created": 1701785341034,
+                            "text": "由于读取 daily_price.csv 文件后就生成了 DataFrame 表格，所以选用 DataFeeds 的 PandasData() 方法来导入，导入的 DataFrame 有默认的格式要求：\n以交易日 'datetime' 为 index\n列为'open'、'high'、'low'、'close'、'volume'、'openinterest' 字段 "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cxggkpxy38g0",
+                            "created": 1701785395449,
+                            "text": "datafeed = bt.feeds.PandasData(dataname=data_, fromdate=datetime.datetime(2019,1,2), todate=datetime.datetime(2021,1,28))"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cxgf3yfy58o0",
+                    "created": 1701781260652,
+                    "text": "指标篇"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cxgf3qedfl40",
+                    "created": 1701781243142,
+                    "text": "交易篇"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cxgf43mc6kw0",
+                    "created": 1701781271922,
+                    "text": "可视化篇"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
